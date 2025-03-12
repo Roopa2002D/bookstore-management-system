@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Return Failed - BookStore</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-danger" role="alert">
+                    <h4 class="alert-heading">Book Return Failed!</h4>
+                    <p>Sorry, there was an issue processing your book return request. Please try again later or contact our support team for assistance.</p>
+                    <hr>
+                    <p class="mb-0">You will be redirected to the homepage in a few seconds. If not, <a href="index.html">click here</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        setTimeout(function () {
+            window.location.href = "index.html";
+        }, 5000); // Redirect after 5 seconds
+    </script>
+</body>
+</html>
