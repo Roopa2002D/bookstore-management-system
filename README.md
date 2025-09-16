@@ -1,5 +1,4 @@
-# bookstore-management-system
-I used HTML, CSS and JavaScript used as frontend technologies 
+# bookstore-management-system  HTML, CSS and JavaScript used as frontend technologies 
 MySQL and PHP technologies  used as backend.
 you can run this project using XAMPP
 
